@@ -1,0 +1,16 @@
+_1    model = epoch 19                     0.43215
+_2    model = epoch 19, conf_thres = 0.9   0.41362
+_3                  10,                    0.36606
+_4                  10, conf_thres = 0.9
+_5    check/ v2     10,                    0.38711
+_6    check/ v2     10, conf_thres = 0.9
+# 以上用training dataset 80% training...
+_7                                         0.43215
+valid =500, 其他training
+_8    v3/19           ,                    0.42595
+_9    v3/19 + v4 30   , no pretrain        0.43690
+_10   v3/19 + v4 30   , margin = 1/2       0.43635
+_11   pretrian  20epoch, 1/3               0.44173
+_12                    , 1/2               0.44100
+_13             40     , 1/2               0.45795
+_14                    , 1/3               0.45866
